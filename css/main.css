@@ -190,6 +190,17 @@ a {
 .pages {
     display: flex;
     margin: 30px;
+    width: 60px;
+}
+
+.resumeImage {
+    padding-top: 5%;
+    position: absolute;
+    bottom: 10px;
+    left: 400px;
+    width: 550px;
+    height: 700px;
+
 }
 
 
