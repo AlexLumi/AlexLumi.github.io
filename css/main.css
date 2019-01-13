@@ -193,6 +193,10 @@ a {
     justify-content: center;
 }
 
+.page {
+    display: flex;
+}
+
 
 
 
