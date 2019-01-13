@@ -13,6 +13,11 @@ html {
     text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+html,body{
+    margin: 0;
+    width: 100%;
+}
+
 a {
     color: currentColor;
     cursor: pointer;
@@ -181,6 +186,20 @@ a {
     opacity: 1;
     transform: scale(1,1);
 }
+
+.pages {
+    display: flex;
+}
+
+.pages ol {
+    height: 2rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    width: 8rem;
+}
+
+
+
 /* 4. Responsiveness */
 
 @media screen and (max-width: 799px) {
